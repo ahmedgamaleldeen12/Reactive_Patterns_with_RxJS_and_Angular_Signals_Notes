@@ -1,0 +1,20 @@
+1- reactive programming is programming with asynchronous data streams and is based on observer patterns
+
+2-Data streams are the spine of reactive programming. Everything that may change or happen over
+ time (you don’t know when exactly) is represented as asynchronous streams such as events,
+ notifications, and messages.
+
+3- Reactive programming is about reacting to changes as soon as they are emitted! 
+
+4- Listen to event equal in meaning  observe to event 
+
+5- observer pattern based on two main role    
+        --publisher  =>  maintains a list of subscribers and notifies them or propagates a change every time there is an update  
+        -- subscriber =>  performs an update or executes a side effect every time they receive a notification from the publisher
+
+         To get notified about the updates, you need to subscribe to the publisher. A real-world analogy would
+         be a newsletter; you don’t get any emails from a specific newsletter if you don’t subscribe to it.
+         This leads us to the building blocks of RxJS, which include the following:
+        -- Observables => These are a representation of the asynchronous data streams that notify the observers of any change
+        -- Observers => These are consumers of the data streams emitted by Observables
+
